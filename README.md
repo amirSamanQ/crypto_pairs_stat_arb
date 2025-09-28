@@ -7,6 +7,14 @@ The project covers the entire workflow: fetching market data, testing stationari
 
 ## 📂 Project Structure
 
+- **01_fetch_klines.ipynb** → Binance Futures data fetching  
+- **02_stationarity_test.ipynb** → Stationarity tests (ADF & KPSS) on BTC/ETH spread  
+- **03_backtest_strategy.ipynb** → Simple pair trading backtest (BTC vs ETH)  
+- **04_grid_backtest.ipynb** → Grid search optimization for strategy parameters  
+
+Other files:
+- **README.md** → project documentation  
+
 
 ---
 
