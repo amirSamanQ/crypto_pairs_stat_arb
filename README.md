@@ -11,7 +11,14 @@ The project covers the entire workflow: fetching market data, testing stationari
 - **02_stationarity_test.ipynb** → Stationarity tests (ADF & KPSS) on BTC/ETH spread  
 - **03_backtest_strategy.ipynb** → Simple pair trading backtest (BTC vs ETH)  
 - **04_grid_backtest.ipynb** → Grid search optimization for strategy parameters  
-
+- **05_backtest_v2.ipynb / backtest_v2.py  
+→ Improved backtest version:  
+   - Allows specifying start and end dates for trading period  
+   - Caches rolling mean/std signals to avoid recomputation  
+   - Compares strategy performance with multiple benchmarks:  
+     • 100% BTC (Buy & Hold)  
+     • 100% ETH (Buy & Hold)  
+     • 50/50 Portfolio
 Other files:
 - **README.md** → project documentation  
 
