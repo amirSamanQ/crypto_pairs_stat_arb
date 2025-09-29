@@ -1,0 +1,16 @@
+*.csv
+*.xlsx
+*.pkl
+*.pickle
+*.ipynb
+*.html
+
+rolling_mean_cache/
+signals_cache/
+__pycache__/
+*.pyc
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
